@@ -1,0 +1,4 @@
+{{ form_start(form) }}
+    {{ form_widget(form, {'attr': {'class': 'form-input block w-full mt-1'}}) }}
+    <button class="inline-block px-4 py-2 mt-4 bg-gray-600 text-white rounded hover:bg-yellow-500">{{ button_label|default('sauvegarder') }}</button>
+{{ form_end(form) }}
